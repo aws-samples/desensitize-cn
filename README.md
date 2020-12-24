@@ -1,4 +1,11 @@
-# desensitize for chinese policy (5 features:name, id, phone, address, card)
+# Desensitize-cn
+Desensitize data of finance customer for they compiance with chinese security policy 
+(5 features:name, id, phone, address, card)
+name： can't show first name，can show last name
+id： can't show 4-14numbers
+phone：can't show first 7 numbers
+address：can't show last address
+card： just can show last four numbers 
 
 # Using it in full text process
  clean() function would do mask job
